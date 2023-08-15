@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url("/sky.jpg") no-repeat;
+  background-position: center;
+  background-size: cover;
+  justify-content: center;
+  padding-top: 3.5rem;
+}
+
+.stick {
+  width: 1.2rem;
+  height: 90vh;
+  background-color: black;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  position: relative;
+}
+
+.flag {
+  width: 22%;
+  height: 20rem;
+  margin-top: 1.5rem;
+}
+
+.part {
+  height: 33%;
+}
+
+.orange {
+  background-color: #ff671f;
+}
+.white {
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.white img {
+  width: 12.3rem;
+}
+
+.green {
+  background-color: #046a38;
+}
+
+.stand {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  left: 31%;
+}
+
+.stairs {
+  height: 2rem;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  background-color: rgb(50, 8, 8);
+}
+
+.third {
+  width: 25rem;
+}
+.second {
+  width: 20rem;
+}
+.first {
+  width: 15rem;
+}
